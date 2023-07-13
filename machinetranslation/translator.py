@@ -9,5 +9,5 @@ def english_to_french(englishText):
 def french_to_english(frenchText):
     
     englishText = MyMemoryTranslator("fr-FR", "en-US").translate(frenchText, True)
-
+    
     return englishText
